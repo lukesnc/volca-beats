@@ -1,0 +1,45 @@
+* {
+  font-family: monospace;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #1a1a1a;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: lightyellow;
+  text-decoration: none;
+}
+
+h1,
+h2,
+p {
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 4.5rem;
+  color: yellow;
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+}
+
+footer {
+  margin-top: auto;
+}
